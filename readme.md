@@ -60,8 +60,9 @@
 - git diff 文件名
 - 会列出该文件变动的前后差异
 
-## 退出编辑区
-- :wq
+## 退出编辑区和清空编辑区
+- :wq   退出编辑区
+- clear 清空编辑区
 
 ## 创建远程仓库
 - 进入 github 官网
@@ -80,3 +81,10 @@
 - -u origin master 设置默认的
 
 ## 正常提交(非第一次提交)
+- git add . 提交到暂存区
+- git commit -m '注释' 提交到本地仓库
+- git push 提及到到远程仓库
+
+## 修改关联的远程仓库地址
+- git remote rm origin
+- git remote add origin ssh地址
