@@ -52,9 +52,31 @@
 - git reset --hard HEAD^
 回退到上一个版本
 - git reset --hard 版本号
-回退到制定版本
-- 注意吧当前代码先提交到本地仓库
-- 工作区的代码自动变成恢复的指定版本的代码
+回退到指定版本
+- 注意把当前代码先提交到本地仓库
+- 工作区的代码自动变成恢复的指定版本
+
+## 查看变动
+- git diff 文件名
+- 会列出该文件变动的前后差异
 
 ## 退出编辑区
-- : wq
+- :wq
+
+## 创建远程仓库
+- 进入 github 官网
+- 创建一个新的远程仓库
+
+## 将本地仓库与远程仓库关联
+- git remote add origin https://github.com/Feng-K3/GP05.git
+- git remote add origin 你的远程仓库地址
+
+- git remote -v 查看本地仓库关联的远程仓库地址
+
+## 将本地仓库提交到远程仓库
+- git push -u origin master
+第一次提交到远程仓库
+- git push 将本地仓库提交到远程仓库
+- -u origin master 设置默认的
+
+## 正常提交(非第一次提交)
