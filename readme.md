@@ -44,5 +44,17 @@
 2. git add .
 3. git commit -m "注释"
 
+## 查看日志
+-- git log  查看完整日志
+-- git reflog   查看简单日志
+
+## 版本回退
+- git reset --hard HEAD^
+回退到上一个版本
+- git reset --hard 版本号
+回退到制定版本
+- 注意吧当前代码先提交到本地仓库
+- 工作区的代码自动变成恢复的指定版本的代码
+
 ## 退出编辑区
 - : wq
